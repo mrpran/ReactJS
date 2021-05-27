@@ -10,6 +10,7 @@ class ClassClick extends Component {
     return (
       <div>
         <button onClick={this.clickHandler}>Click Me</button>
+        <button onClick={() => this.clickHandler()}>Click Me2</button>
       </div>
     )
   }
